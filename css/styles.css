@@ -330,6 +330,111 @@ body {
   background-color: var(--clr-yellow);
 }
 
+.card {
+  display: grid;
+  gap: 24px;
+  width: 327px;
+  border: 1px solid var(--clr-black);
+  padding: 24px;
+  border-radius: 20px;
+  background: var(--clr-white);
+  box-shadow: 8px 8px 0 #000;
+  transition: width 150ms ease-out;
+}
+
+.card .photo img {
+  border-radius: 10px;
+}
+
+.card .metas {
+  display: grid;
+  gap: 12px;
+}
+
+.card .metas .cat {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.card .metas .cat span {
+  display: inline-block;
+  padding: 4px 12px;
+  background: var(--clr-yellow);
+  border-radius: 4px;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 800;
+  color: var(--clr-black);
+  line-height: 150%;
+}
+
+.card .metas .date {
+  font-size: 12px;
+}
+
+.card .metas h2 {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 150%;
+}
+
+.card .metas h2 a {
+  text-decoration: none;
+  color: currentColor;
+  transition: color 250ms ease-out;
+}
+
+.card .metas h2 a:hover {
+  color: var(--clr-yellow);
+}
+
+.card .metas .excerpt {
+  color: var(--clr-grey);
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.card .author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.card .author img {
+  width: 32px;
+  aspect-ratio: 1;
+}
+
+.card .author span {
+  flex: 1;
+}
+
+@media (min-width: 831px) {
+  .card {
+    width: 384px;
+  }
+
+  .card .metas .cat span {
+    font-size: 14px;
+  }
+
+  .card .metas .date {
+    font-size: 14px;
+  }
+
+  .card .metas h2 {
+    font-size: 24px;
+  }
+
+  .card .metas .excerpt {
+    font-size: 16px;
+  }
+}
+
 @media only screen and (min-width: 1025px) {
   :root {
     --container-width: 730px;

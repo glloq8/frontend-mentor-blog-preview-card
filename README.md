@@ -1,18 +1,15 @@
-# HTML Starterkit
+# Frontend Mentor - Blog preview card
 
-## Install
+## Built with
 
-`npm install`
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
 
-## Run
+## Author
 
-`gulp`
-
-After that, go to `http://localhost:3000`
-Sass compilation and hot reload.
-
-## Minify CSS file
-
-`gulp minicss`
-
-It will delete the css folder, recreate it and minify the css file.
+- Website - [Yannick Ratel](https://www.ratelyannick.fr)
+- Frontend Mentor - [@glloq8](https://www.frontendmentor.io/profile/glloq8)
+- Github - [@glloq8](https://github.com/glloq8)

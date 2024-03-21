@@ -1,1 +1,12 @@
 @import '_global';
+
+@include font-face('Figtree-VariableFont_wght', '../fonts/Figtree-VariableFont_wght', normal, normal);
+
+body, html {
+    min-height: 100vh;
+}
+body {
+    display: grid;
+    place-items: center;
+    background-color: var(--clr-yellow);
+}
